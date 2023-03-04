@@ -1,0 +1,48 @@
+
+<div class='parent'>
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Product ID</mat-label>
+          <input matInput placeholder="Product ID"[(ngModel)]="products.id" name="id">
+           
+          <mat-hint>Should be valid</mat-hint>
+        </mat-form-field>
+    </p>
+    
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Product Name</mat-label>
+          <input matInput placeholder="Product Name"[(ngModel)]="products.pname" name="pname">
+          
+          <mat-hint>Valid field</mat-hint> 
+        </mat-form-field>
+    </p>
+    
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Product Quantity</mat-label>
+          <input matInput placeholder="Product Quantity"[(ngModel)]="products.quantity" name="quantity">
+           
+          <mat-hint>Valid field</mat-hint> 
+        </mat-form-field>
+    </p>
+    
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Product Price</mat-label>
+          <input matInput placeholder="Product Price"[(ngModel)]="products.price" name="price">
+          
+          <mat-hint>In rupees</mat-hint>
+        </mat-form-field>
+    </p>
+     <section>
+      <div class="example-button-row">
+        <button mat-raised-button color="primary" (click)="add()" aria-label="Example icon button with a open in new tab icon">
+          ADD
+        </button>
+      
+      </div>
+     </section>
+    
+    </div>
+    

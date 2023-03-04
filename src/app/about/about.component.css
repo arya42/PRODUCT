@@ -1,0 +1,13 @@
+.container{
+    background-image: url('https://www.freepik.com/free-photo/black-friday-elements-assortment_17658462.htm#query=shopping&position=12&from_view=keyword&track=sph');
+}
+.parent1 {
+     
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color: rgb(197, 132, 48);
+}
+
+ 
